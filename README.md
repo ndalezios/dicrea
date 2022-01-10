@@ -1,0 +1,2 @@
+# dicrea
+A dictionary creator 
