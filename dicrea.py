@@ -10,4 +10,4 @@ with open(fname) as f:
 print terms
 with open('output.txt', 'w') as f:
 	for term in terms :
-		f.writelines(str(term)+'\n')
+		f.writelines(str(term).replace(' ','') + '\n')
