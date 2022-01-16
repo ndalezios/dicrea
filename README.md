@@ -1,6 +1,7 @@
 # dicrea
-A dictionary creator 
-Input is usually a web page containing terms and glossary of a specific sector. Using regexps and \<p><b\> as statring delimiters every term is extracted and stored in an output file
+A dictionary creator collecting words from files or web pages on a specific sector (e.g. banking sector) based on a specific pattern. Pattern is defined via regexs' inside python source file. Planning to add this as an optional argument.
+
+Input is usually a web page or file containing terms and glossary of a specific sector. Using regexps and \<p><b\> as statring delimiters every term is extracted and stored in an output file
 ```console
 python3 dicrea.py -h
 usage: dicrea.py [-h] [-f FILE] [-u URL] [-o OUTPUT] [-a APPEND]
